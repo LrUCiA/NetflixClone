@@ -15,6 +15,7 @@
 		F8264C7828A359BF002D0038 /* YoutubeSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8264C7728A359BF002D0038 /* YoutubeSearchModel.swift */; };
 		F8264C7A28A35E89002D0038 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8264C7928A35E89002D0038 /* TitlePreviewViewController.swift */; };
 		F859FA2028A21FB400CB360C /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F859FA1F28A21FB400CB360C /* SearchResultViewController.swift */; };
+		F8649CCA28BA0E7900835DE9 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8649CC928BA0E7900835DE9 /* DiscoverViewController.swift */; };
 		F88919C02891235E0002BD43 /* CollectionVIewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88919BF2891235E0002BD43 /* CollectionVIewTableViewCell.swift */; };
 		F89562E3288B8A0000EFD415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89562E2288B8A0000EFD415 /* AppDelegate.swift */; };
 		F89562E5288B8A0000EFD415 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89562E4288B8A0000EFD415 /* SceneDelegate.swift */; };
@@ -23,7 +24,6 @@
 		F89562EF288B8A0300EFD415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89562ED288B8A0300EFD415 /* LaunchScreen.storyboard */; };
 		F89562F8288B93BF00EFD415 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89562F7288B93BF00EFD415 /* HomeViewController.swift */; };
 		F89562FA288B941700EFD415 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89562F9288B941700EFD415 /* UpcomingViewController.swift */; };
-		F89562FC288B945700EFD415 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89562FB288B945700EFD415 /* DiscoverViewController.swift */; };
 		F89562FE288B947D00EFD415 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89562FD288B947D00EFD415 /* DownloadsViewController.swift */; };
 		F8B0BE3728A1034D0057888C /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0BE3628A1034D0057888C /* TitleTableViewCell.swift */; };
 		F8B52CF628A0992C0012D8FB /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B52CF528A0992C0012D8FB /* TitleCollectionViewCell.swift */; };
@@ -42,6 +42,7 @@
 		F8264C7728A359BF002D0038 /* YoutubeSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchModel.swift; sourceTree = "<group>"; };
 		F8264C7928A35E89002D0038 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		F859FA1F28A21FB400CB360C /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		F8649CC928BA0E7900835DE9 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		F88919BF2891235E0002BD43 /* CollectionVIewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVIewTableViewCell.swift; sourceTree = "<group>"; };
 		F89562DF288B8A0000EFD415 /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89562E2288B8A0000EFD415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		F89562F0288B8A0300EFD415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F89562F7288B93BF00EFD415 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F89562F9288B941700EFD415 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
-		F89562FB288B945700EFD415 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		F89562FD288B947D00EFD415 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		F8B0BE3628A1034D0057888C /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		F8B52CF528A0992C0012D8FB /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -78,8 +78,8 @@
 			children = (
 				F89562F7288B93BF00EFD415 /* HomeViewController.swift */,
 				F89562F9288B941700EFD415 /* UpcomingViewController.swift */,
-				F89562FB288B945700EFD415 /* DiscoverViewController.swift */,
 				F89562FD288B947D00EFD415 /* DownloadsViewController.swift */,
+				F8649CC928BA0E7900835DE9 /* DiscoverViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -257,11 +257,11 @@
 				F859FA2028A21FB400CB360C /* SearchResultViewController.swift in Sources */,
 				F80E62FC28A4D77300A3C133 /* DataPersistenceManager.swift in Sources */,
 				F8B52CF628A0992C0012D8FB /* TitleCollectionViewCell.swift in Sources */,
-				F89562FC288B945700EFD415 /* DiscoverViewController.swift in Sources */,
 				F89562E7288B8A0000EFD415 /* MainTabBarViewController.swift in Sources */,
 				F88919C02891235E0002BD43 /* CollectionVIewTableViewCell.swift in Sources */,
 				F80E23D8289BBCBC007AAA42 /* APICaller.swift in Sources */,
 				F8E748202892FA4F0045CBFE /* MainHeaderUIView.swift in Sources */,
+				F8649CCA28BA0E7900835DE9 /* DiscoverViewController.swift in Sources */,
 				F89562FE288B947D00EFD415 /* DownloadsViewController.swift in Sources */,
 				F89562E3288B8A0000EFD415 /* AppDelegate.swift in Sources */,
 				F89562E5288B8A0000EFD415 /* SceneDelegate.swift in Sources */,
