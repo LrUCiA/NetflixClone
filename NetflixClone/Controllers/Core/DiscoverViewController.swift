@@ -19,7 +19,7 @@ class DiscoverViewController: UIViewController {
     }()
     
     private let searchController: UISearchController = {
-        let controller = UISearchController(searchResultsController: DiscoverViewController())
+        let controller = UISearchController(searchResultsController: SearchResultViewController())
         controller.searchBar.placeholder = "검색"
         controller.searchBar.searchBarStyle = .minimal
         return controller
@@ -127,7 +127,6 @@ extension DiscoverViewController: UISearchResultsUpdating, SearchResultViewContr
         
         guard let query = searchBar.text,
               !query.trimmingCharacters(in: .whitespaces).isEmpty,
-              query.trimmingCharacters(in: .whitespaces).count >= 3,
               let resultsController = searchController.searchResultsController as? SearchResultViewController else {
                   return
               }
